@@ -10,3 +10,7 @@ docker run -p 8000:80 json-csrf
 Now, browse to the following URL, replacing the JSON_DATA with the JSON data that should be sent and the TARGET_ENDPOINT with the endpoint of the vulnerable application:
 
 http://localhost:8000/read.html?jsonData={JSON_DATA}&php_url=http://localhost:8000/test.php&endpoint=TARGET_ENDPOINT
+
+
+
+Update: This appears to no longer work in the most recent version of Firefox. Still works in other browsers. 
